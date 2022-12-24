@@ -27,3 +27,10 @@ summary(model8)
 extractAIC(model8)
 head(fulldata)
 ```
+  ## Example Code for Plots
+  ```
+  ggplot(f1seconds_p, aes(x=ttpedal, y=cornertime)) + geom_point(aes(color = track)) + 
+  scale_x_continuous("Time on Pedal (seconds)") +
+  scale_y_continuous("Corner Time (seconds)") + 
+  theme(panel.grid.major=element_line(NA), panel.grid.minor=element_line(NA), legend.position="bottom") + labs(title="Time on Pedal on Corner Times") + facet_wrap( ~ track) + stat_smooth(method="lm", col="red") + labs(color="Track:")
+```
