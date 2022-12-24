@@ -1,0 +1,3 @@
+# f4braking
+Analysis of Formula 2 driving styles in a singular corner.
+Braking application and steering input are the primary motor skills in race car driving (Baur et al., 2006; Klarica, 2001). However, relatively little is understood about the key motor skills in race car driving. Thus, this study observed two essential aspects of braking performance: the peak  force (PF) and the rate of force development of braking (RFD). Seventy braking analysis was conducted to assess if relationship applies with cornering performance. The braking data was assembled from the SMP Formula 4 championship, which is a junior formula series to develop young drivers to the single-seater categories such as Formula 3 and Formula 2. 
